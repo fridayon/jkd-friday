@@ -6,7 +6,7 @@ name: jkd
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0,30 23,0-15/1 * * *'
+    - cron: '0,30 2-18/1 * * *'
   watch:
     types: started
 jobs:
